@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doc</title>
+    <style>
+        body,
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    
+        header {
+            height: fit-content;
+            background-color: rgb(34, 34, 34);
+            width: 100%;
+            height: 606px;
+        }
+    
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    
+        .navbar ul {
+            display: flex;
+            align-items: center;
+        }
+    
+        .navbar ul li {
+            text-decoration: none;
+            display: block;
+            margin: 0 20px;
+        }
+    
+        .navbar h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 0;
+            color: white;
+        }
+        .navbar ul li a {
+            color: white;
+            font-size: 16px;
+        }
+        .navbar ul li button {
+            background-color:black;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 50px;
+            border: 1px solid red;
+        }
+        h1{
+            color:yellow;
+        }
+        p{
+            text-align: center;
+            color: aliceblue; 
+        }
+        form{
+            color: aliceblue;
+        }
+        input{
+            width: 400px;
+        }
+        label{
+            margin-left: 405px;
+        }
+        span{
+    color:yellow
+}
+        </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2>BA<span>LL</span>ET</h2>
+            <ul>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./my-work.html">My Work</a></li>
+                <li><a href="./contact-us.html"><button>Contact Us</button></a></li>
+            </ul>
+        </nav>
+    <body>
+        <br><br><br>
+        <form action="/action_page.php">
+            <label for="email">Email:</label>
+            <p><input type="email" id="email" name="email"></p><br><br>
+            <label for="pwd">Password:</label>
+            <p><input type="password" id="pwd" name="pwd" minlength="8"></p><br><br>
+            <label for="message">Message :</label> 
+            <p><input style="height: 100px;" type="message" id="message" name="message"></p><br><br>
+            <p><input type="submit"></p>
+</body>
+</html>
